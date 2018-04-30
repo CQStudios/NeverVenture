@@ -1,0 +1,189 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<ItemCollection>
+
+  <!--/*Types of Damages
+  
+       *Physical
+       *  0 Mundane
+       *   1  Bludgeoning
+       *   2  Piercing
+       *   3  Slashing
+       *  4 Alchemical
+       *   5  Sonic
+       *   6  Acid
+       *   7  Narcotic
+       *
+       
+       *Magical
+       *  8 Mystical
+       *   9  Radiant
+       *   10 Necotic
+       *   11 Arcane
+       * 12 Elemental
+       *   13 Fire
+       *   14 Cold
+       *   15 Shock
+       *
+       *None
+       *   16 no additional damage
+       *      This will be used if there is multiple types of Damage on one piece of gear
+       
+       
+       *Slot Codes
+       *   0 Main Hand
+       *   1 Off hand
+       *   2 Armor
+       
+       
+       * Identication Codes
+       *   1000 Weapons
+       *   2000 Armor
+       *  
+       
+  */-->
+  
+  
+  <!--Simple Weapons-->
+  
+  
+  <Items>
+    <Item Name="Sword">
+      <Value>5</Value>
+      <Price>10</Price>
+      <Rating>1</Rating>
+      <Speed>1</Speed>
+      <DamageType>3</DamageType>
+      <DamageAmount>5</DamageAmount>
+      <Slot>0</Slot>
+      <ID>1001</ID>
+    </Item>
+  
+  <Item Name="Axe">
+      <Value>8</Value>
+      <Price>10</Price>
+      <Rating>1</Rating>
+      <Speed>1.5</Speed>
+      <DamageType>3</DamageType>
+      <DamageAmount>8</DamageAmount>
+      <Slot>0</Slot>
+    <ID>1002</ID>
+    </Item>
+  
+    <Item Name="Greatsword">
+      <Value>12</Value>
+      <Price>15</Price>
+      <Rating>1</Rating>
+      <Speed>2</Speed>
+      <DamageType>3</DamageType>
+      <DamageAmount>12</DamageAmount>
+      <Slot>0</Slot>
+      <ID>1003</ID>
+    </Item>
+
+    <Item Name="Spear">
+      <Value>7</Value>
+      <Price>12</Price>
+      <Rating>1</Rating>
+      <Speed>1.5</Speed>
+      <DamageType>2</DamageType>
+      <DamageAmount>7</DamageAmount>
+      <Slot>0</Slot>
+      <ID>1004</ID>
+    </Item>
+
+    <Item Name="Dagger">
+      <Value>4</Value>
+      <Price>3</Price>
+      <Rating>1</Rating>
+      <Speed>0.7</Speed>
+      <DamageType>2</DamageType>
+      <DamageAmount>6</DamageAmount>
+      <Slot>0</Slot>
+      <ID>1005</ID>
+    </Item>
+
+    <Item Name="Mace">
+      <Value>6</Value>
+      <Price>12</Price>
+      <Rating>1</Rating>
+      <Speed>1</Speed>
+      <DamageType>1</DamageType>
+      <DamageAmount>6</DamageAmount>
+      <Slot>0</Slot>
+      <ID>1006</ID>
+    </Item>
+
+    <Item Name="Great Hammer">
+      <Value>9</Value>
+      <Price>15</Price>
+      <Rating>1</Rating>
+      <Speed>1.7</Speed>
+      <DamageType>1</DamageType>
+      <DamageAmount>12</DamageAmount>
+      <Slot>0</Slot>
+      <ID>1007</ID>
+    </Item>
+    
+  <Item Name="Bow">
+      <Value>5</Value>
+      <Price>12</Price>
+      <Rating>1</Rating>
+      <Speed>1.5</Speed>
+      <DamageType>2</DamageType>
+      <DamageAmount>5</DamageAmount>
+      <Slot>0</Slot>
+    <ID>1008</ID>
+    </Item>
+
+    <Item Name="Greatbow">
+      <Value>12</Value>
+      <Price>18</Price>
+      <Rating>1</Rating>
+      <Speed>2</Speed>
+      <DamageType>2</DamageType>
+      <DamageAmount>15</DamageAmount>
+      <Slot>0</Slot>
+      <ID>1009</ID>
+    </Item>
+  
+    
+    
+    
+  <!--Simple Armor-->
+    
+    
+    
+  <Item Name="Leather">
+      <Value>2.5</Value>
+      <Price>4</Price>
+      <Rating>1</Rating>
+      <Speed>0</Speed>
+    <DamageType>3</DamageType>
+    <DamageAmount>1.25</DamageAmount>
+    <Slot>2</Slot>
+    <ID>2001</ID>
+    </Item>
+    
+    <Item Name="Chainmail">
+      <Value>2.5</Value>
+      <Price>4</Price>
+      <Rating>1</Rating>
+      <Speed>0.25</Speed>
+      <DamageType>2</DamageType>
+      <DamageAmount>1.25</DamageAmount>
+      <Slot>2</Slot>
+      <ID>2002</ID>
+    </Item>
+    
+    <Item Name="Plate">
+      <Value>3</Value>
+      <Price>8</Price>
+      <Rating>1</Rating>
+      <Speed>0.5</Speed>
+      <DamageType>1</DamageType>
+      <DamageAmount>1.5</DamageAmount>
+      <Slot>2</Slot>
+      <ID>2003</ID>
+    </Item>
+  </Items>
+</ItemCollection>
