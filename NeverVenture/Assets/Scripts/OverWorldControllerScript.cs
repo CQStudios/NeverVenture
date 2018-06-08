@@ -50,7 +50,7 @@ public class OverWorldControllerScript : MonoBehaviour {
             //if the mouse button (left) is held down, we update our target location if needed.
             if (Input.GetMouseButton(0))
             {
-                if (!mouseHeld)
+                if (!mouseHeld || true)
                     //on mouse click down, when not in battle, update the clickeffect location.
                     if (!player.inBattle)
                         UpdateTargetLocation();

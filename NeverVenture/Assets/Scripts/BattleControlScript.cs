@@ -192,8 +192,36 @@ public class BattleControlScript : MonoBehaviour {
 
                 }
             }
+            //turn off all images.
+            ActivateQueueImages(false);
+            //TODO activate turn images based on action queue
+            for (int c = 0; c < playerObject.GetCombatActionCount(); c++){
+                I[c].gameObject.SetActive(true);
+                string typing = playerObject.GetCombatActionQueue()[c].actiontype;
+                if (typing.Contains("attack"))
+                {
 
+                }
+                else if (typing.Contains("cast"))
+                {
 
+                }
+                else if (typing.Contains("block"))
+                {
+
+                }
+                else if (typing.Contains("move"))
+                {
+
+                }
+
+                else
+                {
+
+                }
+                // TURN IMAGES NEEDS SETTING HERE.
+
+            }
 
 
             //if we get here, playActive is false. this is where we care to handle button presses.

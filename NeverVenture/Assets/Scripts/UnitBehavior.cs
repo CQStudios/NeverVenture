@@ -122,9 +122,9 @@ public class UnitBehavior : MonoBehaviour {
                 {
                     overWorldDestination2 = transform.position + transform.forward * (info.distance) + Vector3.ProjectOnPlane(info.normal, down).normalized * radius * 2f;
                 }
-                //slow down when you get near your destination.
+                //slow down when you get near your destination (only in overworld).
                 speedmultiplier = (overWorldDifference.magnitude > WtR)? 1 : overWorldDifference.magnitude/(WtR * 1.5f) + 0.33f ;
-                speedmultiplier = inBattle ? 1 : speedmultiplier;
+                speedmultiplier = inBattle ? 1 : speedmultiplier; //basically just dont magnify/reduce if in battle.
                 transform.position = Vector3.MoveTowards(transform.position, overWorldDestination2, speedmultiplier * moveSpeed * Time.deltaTime);
                 if ((overWorldDestination2 - transform.position).magnitude > 0.001f)
                 {
